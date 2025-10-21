@@ -6,3 +6,12 @@ venv/
 *.log
 runs/
 outputs/
+
+# Ignore simulator maps & Unity binaries
+assets/maps/
+*.x86_64
+*_Data/
+UnityPlayer.so
+*.assets
+*.resS
+
